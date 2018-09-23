@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+      .MyDIV{
+      height: 50px;
+      padding:25px;
+      border:10px dotted #000000;
+      background-color:yellow;
+      /* background-clip:padding-box; */
+      }
+    </style>
+</head>
+<body>
+    <div class="MyDIV">background-clip:默认值(border-box);</div>
+    <div class="MyDIV" style="background-clip:border-box;">background-clip:border-box;</div>
+    <div class="MyDIV" style="background-clip:padding-box;">background-clip:padding-box;</div>
+    <div class="MyDIV" style="background-clip:content-box;">background-clip:content-box;</div>
+</body>
+</html>
